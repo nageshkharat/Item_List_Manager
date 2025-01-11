@@ -48,7 +48,7 @@ const ItemListManager = () => {
             type="text"
             value={inputValue}
             onChange={handleInputChange}
-            placeholder="Enter an item"
+            placeholder="Enter item"
             className="inputField"
           />
           
