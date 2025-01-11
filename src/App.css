@@ -1,0 +1,172 @@
+/* .App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 50px;
+}
+
+.item-list-manager {
+  max-width: 600px;
+  margin: auto;
+}
+
+.manager {
+  margin-right: 23%;
+}
+
+.input-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  width: 250px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.add-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  width: 250px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.add-button:hover {
+  background-color: #45a049;
+}
+
+.item-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.item {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+} */
+
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  padding: 0;
+  margin: 0;
+}
+
+/* Header Styles */
+.header {
+  background-color: #323846;
+  padding: 10px;
+  text-align: center;
+  color: rgb(17, 154, 63);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.secondItem {
+  font-size: 35px;
+  margin-left: -75%;
+  font-weight: b;
+}
+/* Content Section */
+.item-list-manager {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  padding: 10px;
+  font-size: 16px;
+  width: 600px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.add-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  width: 550px;
+  font-weight: bold;
+}
+
+.add-button:hover {
+  background-color: #45a049;
+}
+
+.item-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.item {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+
