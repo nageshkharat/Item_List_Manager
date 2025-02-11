@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const ItemListManager = () => {
 
-  const [items, setItems] = useState([]);
+  const [items, setItems] = useState([]); 
 
   const [inputValue, setInputValue] = useState('');
 
