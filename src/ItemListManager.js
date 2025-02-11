@@ -4,7 +4,7 @@ const ItemListManager = () => {
 
   const [items, setItems] = useState([]);  
 
-  const [inputValue, setInputValue] = useState(''); 
+  const [inputValue, setInputValue] = useState('');  
 
   const [error, setError] = useState('');
 
