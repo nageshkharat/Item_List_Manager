@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <ItemListManager />
     </div>
-  );
+  ); 
 }
 
 export default App;
